@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  background-color: #cbcbcb;
+}
+
+header {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#img-div {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  object-fit: contain;
+  display: block;
+}
+
+#image {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+#tribute-info {
+  background-color: white;
+}
+
+#for-more-info {
+  background-color: white;
+}

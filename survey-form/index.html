@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Generic Junior/Senior High School Activity Selection</title>
+  </head>
+  <body>
+    <h1 id="title">Generic Junior/Senior High School Activity Selection</h1>
+    <p id="description">
+      Select the sports and/or activities that you would like more information
+      about.
+    </p>
+    <form
+      id="survey-form"
+      method="post"
+      action="https://register-demo.freeCodeCamp.org"
+    >
+      <fieldset>
+        <legend>Student information</legend>
+        <label for="name" id="name-label"
+          >Name:
+          <input id="name" type="text" placeholder="Enter your name" required
+        /></label>
+        <label for="email" id="email-label"
+          >Email:
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+        /></label>
+        <label for="number" id="number-label"
+          >Student ID:
+          <input
+            id="number"
+            type="number"
+            min="100"
+            max="500"
+            placeholder="ID"
+            required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Grade</legend>
+        <label for="dropdown">
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Seventh Grade</option>
+            <option value="2">Eighth Grade</option>
+            <option value="3">Freshman</option>
+            <option value="4">Sophomore</option>
+            <option value="5">Junior</option>
+            <option value="6">Senior</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Gender</legend>
+        <label for="male"
+          ><input
+            id="male"
+            type="radio"
+            name="gender"
+            value="male"
+            checked
+          />Male</label
+        >
+        <label for="female"
+          ><input
+            id="female"
+            type="radio"
+            name="gender"
+            value="female"
+          />Female</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Select Activities</legend>
+        <label for="basketball"
+          ><input
+            id="basketball"
+            type="checkbox"
+            name="basketball"
+            value="basketball"
+          />Basketball</label
+        >
+        <label for="football"
+          ><input
+            id="football"
+            type="checkbox"
+            name="football"
+            value="football"
+          />Football</label
+        >
+        <label for="band"
+          ><input
+            id="band"
+            type="checkbox"
+            name="band"
+            value="band"
+          />Band</label
+        >
+        <label for="choir"
+          ><input
+            id="choir"
+            type="checkbox"
+            name="choir"
+            value="choir"
+          />Choir</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Other Comments</legend>
+        <label for="Comments">
+          <textarea
+            id="comments"
+            name="comments"
+            rows="3"
+            cols="50"
+            placeholder="Enter any other comments"
+          ></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
