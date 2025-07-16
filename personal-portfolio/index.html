@@ -1,0 +1,82 @@
+<!-- to hold a project
+5. projects section should contain at least one link to a project
+9. at least 1 media query
+10. height of welcome section should be equal to the height of the viewport
+11. navbar should always be at the top of the viewport
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">Welcome</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+    <section id="welcome-section" class="projects-section">
+      <h1 class="welcome-title">Welcome!</h1>
+      <p>I am Bri - a beginner developer</p>
+    </section>
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+      <h2 class="project-title">Projects</h2>
+      <p>
+        See my other work on
+        <a
+          id="profile-link"
+          href="https://www.freecodecamp.org/breemg"
+          target="_blank"
+          >freeCodeCamp</a
+        >
+        or
+        <a id="github-link" href="https://github.com/briannemg" target="_blank"
+          >GitHub</a
+        >.
+      </p>
+    </section>
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together!</h2>
+      </div>
+      <div class="contact-links">
+        <a
+          id="profile-link"
+          href="https://github.com/briannemg"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="/cdn-cgi/l/email-protection#adc8d5ccc0ddc1c8edc8d5ccc0ddc1c883cec2c0"
+          class="btn contact-details"
+          ><i class="fas fa-at"></i> Email</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call</a
+        >
+      </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer></footer>
+    <!-- END FOOTER SECTION -->
+  </body>
+</html>
