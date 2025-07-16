@@ -1,16 +1,23 @@
-<!-- to hold a project
-5. projects section should contain at least one link to a project
-9. at least 1 media query
-10. height of welcome section should be equal to the height of the viewport
-11. navbar should always be at the top of the viewport
--->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     <title>My Personal Portfolio</title>
   </head>
   <body>
@@ -25,7 +32,7 @@
     <!-- END NAV -->
 
     <!-- START WELCOME SECTION -->
-    <section id="welcome-section" class="projects-section">
+    <section id="welcome-section" class="welcome-section">
       <h1 class="welcome-title">Welcome!</h1>
       <p>I am Bri - a beginner developer</p>
     </section>
@@ -33,7 +40,19 @@
 
     <!-- START PROJECTS SECTION -->
     <section id="projects" class="projects-section">
-      <h2 class="project-title">Projects</h2>
+      <h2 class="project-section-header">Projects</h2>
+      <div class="projects-grid">
+        <a
+          href="https://briannemg.github.io/fcc-projects/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            freeCodeCamp Projects
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
       <p>
         See my other work on
         <a
@@ -61,22 +80,27 @@
           href="https://github.com/briannemg"
           target="_blank"
           class="btn contact-details"
-          ><i class="fab fa-github"></i> GitHub</a
+          ><i class="fab fa-github"></i>GitHub</a
         >
         <a
           href="/cdn-cgi/l/email-protection#adc8d5ccc0ddc1c8edc8d5ccc0ddc1c883cec2c0"
           class="btn contact-details"
-          ><i class="fas fa-at"></i> Email</a
+          ><i class="fas fa-at"></i>Email</a
         >
         <a href="tel:555-555-5555" class="btn contact-details"
-          ><i class="fas fa-mobile-alt"></i> Call</a
+          ><i class="fas fa-mobile-alt"></i>Call</a
         >
       </div>
     </section>
     <!-- END CONTACT SECTION -->
 
     <!-- START FOOTER SECTION -->
-    <footer></footer>
+    <footer>
+        <p>While the projects in this portfolio are real, the email and phone contact details are not.</p>
+        <p>&copy; Created for the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">Responsive Web Design</a> course at <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a></p>
+    </footer>
     <!-- END FOOTER SECTION -->
   </body>
 </html>
